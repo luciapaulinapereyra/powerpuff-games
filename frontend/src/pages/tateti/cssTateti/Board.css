@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    font-size: 90px;
+    text-align: center;
+    color: #988c62;
+    width: 100px;
+    height: 100px;
+    background-color: #222;
+    margin: 5px;
+    border-radius: 10px;
+}

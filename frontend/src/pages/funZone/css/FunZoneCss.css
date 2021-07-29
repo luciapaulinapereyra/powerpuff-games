@@ -1,0 +1,15 @@
+.LobbyButton{
+    height: 50px;
+    border:none;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+
+.boxFunZone{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}

@@ -1,0 +1,105 @@
+.RpslsBackground{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.title{
+    font-size:xx-large;
+    color: rgb(00, 00, 00);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.titleIndex{
+    font-size:x-large;
+    color: rgb(00, 00, 00);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.buttonIndex {
+    width: 300px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    color:rgb(226, 192, 43);
+    font-size:50px;
+    font-weight:600;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border:none;
+}
+.buttonIndex:hover {
+    background: #161615;
+    color:rgb(255, 232, 129);
+    width: 320px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.boxRpslsIndex {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin:50px;
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    color:rgb(226, 192, 43);
+    font-size:20px;
+    font-weight:600;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border:none;
+}
+.button:hover {
+    background: #161615;
+    color:rgb(255, 232, 129);
+    cursor: pointer;
+}
+.button2 {
+    width: 100px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    color:rgb(226, 192, 43);
+    font-size:20px;
+    font-weight:600;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border:none;
+    margin:10px;
+}
+.button2:hover {
+    background: #161615;
+    color:rgb(255, 232, 129);
+    cursor: pointer;
+}
+
+.boxRpsls {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin:15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.paragraph{
+    font-size:large;
+    color: rgb(00, 00, 00);
+    font-family: 'Montserrat', sans-serif;
+}

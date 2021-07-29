@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap");
+#body-hangman {
+  background-color: rgb(51, 45, 46);
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Overpass", sans-serif;
+}
+.titleLetters {
+  text-align: center;
+  margin-right: -100px;
+  color: pink;
+  font-family: "Overpass", sans-serif;
+}
+#tries {
+  color: pink;
+  margin-left: 0;
+  font-family: "Overpass", sans-serif;
+}
+.buttonsHangman {
+  background-color: pink; /* Green */
+  border-color: rgb(168, 148, 152);
+  color: rgb(51, 45, 46);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 150;
+  font-family: "Overpass", sans-serif;
+}
+.buttonsHangman:hover {
+  background-color: rgb(168, 148, 152);
+}
+#wrong-letters {
+  width: 20%;
+  border-radius: 1rem;
+  /*padding: 1rem 0.5rem 1rem 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  height: 500px;
+}
+#wrong-letters .title {
+  font-size: 25px;
+  color: pink;
+}
+
+#wrong-letters .letter {
+  color: pink;
+  flex-direction: row;
+  font-size: 25px;
+}
+#imagenes {
+  width: 450px;
+  height: 500px;
+  background-color: rgb(168, 148, 152);
+  border-radius: 110px;
+}
+#word {
+  color: pink;
+  margin-left: 8px;
+  font-size: 50px;
+}
+#container-word {
+  display: flex;
+}
+#img {
+  height: 400px;
+  width: 550px;
+}
+
+#messages {
+  color: pink;
+}
+
+#send {
+  border: 4px solid rgb(168, 148, 152);
+  border-radius: 4px;
+  background-color: pink;
+  height: 25px;
+  width: 200px;
+}
+
+/*cajita naranja */
+.container-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/*cajita negra */
+.container-hangman {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*cajita roja */
+.container-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.parrafos {
+  color: pink;
+  font-size: 20px;
+}
