@@ -6,7 +6,9 @@ import WrongLetters from "./componentsHangman/WrongLetters";
 import GoBack from "../../components/GoBack";
 import "./css/indexHangman.css";
 import Images from "./componentsHangman/Man";
-const URL = "http://localhost:5000/hangman";
+import { URL as BASE_URL } from "../../common/constants";
+
+const URL = `${BASE_URL}/hangman`;
 
 const Hangman = () => {
   //States

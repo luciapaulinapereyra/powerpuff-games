@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import bow from "../imgHangman/hangman0.png";
 import head from "../imgHangman/hangman1.png";
 import bodyMan from "../imgHangman/hangman2.png";
@@ -35,10 +35,12 @@ function Man({ tries }) {
     case 7:
       img = deadMan;
       break;
+    default:
+      break;
   }
   return (
     <div>
-      <img id="img" src={img}></img>
+      <img alt="man" id="img" src={img}></img>
     </div>
   );
 }

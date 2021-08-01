@@ -67,7 +67,7 @@ function Cuadraditos() {
       let len = 12;
       for (let i = 0; i < p5.width / len; i++) {
         p5.fill("white");
-        if (i % 2 == 0) p5.rect(i * len, p5.height, len, -p5.height);
+        if (i % 2 === 0) p5.rect(i * len, p5.height, len, -p5.height);
       }
     }
   };
