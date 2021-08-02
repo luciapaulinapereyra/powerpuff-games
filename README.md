@@ -1,8 +1,9 @@
 # ReadMe of Power Puff Games 
 ---
+Proyecto que hicimos 3 compañeras para el trabajo final de la materia Seminario de Lenguajes (opción Javascript) de la UNLP informática
 
 ## Aclaraciones generales 
-**¡¡¡¡¡PARA CORRER LA PAGINA CORRECTAMENTE!!!!!**
+**PARA CORRER LA PAGINA CORRECTAMENTE**
 Para poder usar la página correctamente deberá poner a "correr" tanto el **backend** como el **frontend**. Para esto usted deberá: 
 1. Abrir la terminal de preferencia (recomendamos VSCode por su facilidad)
 2. Estando en la ruta del **backend** hacer ``npm start``
