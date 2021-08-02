@@ -1,6 +1,8 @@
 # ReadMe of Power Puff Games 
 ---
 Proyecto que hicimos 3 compañeras para el trabajo final de la materia Seminario de Lenguajes (opción Javascript) de la UNLP informática
+**Para ver la página funcionando*
+https://powerpuff-games-54gtszz0a-powerpuff-games.vercel.app/
 
 ## Aclaraciones generales 
 **PARA CORRER LA PAGINA CORRECTAMENTE**
